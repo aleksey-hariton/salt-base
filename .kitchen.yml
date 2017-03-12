@@ -1,0 +1,21 @@
+---
+driver:
+  name: vagrant
+
+platforms:
+  - name: centos/7
+
+verifier:
+  name: inspec
+
+provisioner:
+  name: salt_solo
+  salt_version: 2015.8.8
+  is_file_root: true
+  state_top:
+    base:
+      '*':
+        - mc
+
+suites:
+  - name: default
