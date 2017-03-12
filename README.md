@@ -10,6 +10,15 @@ Before you start with Salt Stack, Kitchen and InSpec you have to install:
    - `kitchen-salt`
    - `kitchen-inspec`
    - `inspec`
+
+## IDE
+
+Unfortunately only way, for now, to have proper syntax highlight for Salt code and tests is use Sublime IDE.
+I recommend to install `Sublime 3` + `Salt support` + `auto-save` plugin:
+
+ - https://www.sublimetext.com/3
+ - https://github.com/saltstack/sublime-text
+ - https://packagecontrol.io/packages/auto-save
    
 ## Test Kitchen
 
